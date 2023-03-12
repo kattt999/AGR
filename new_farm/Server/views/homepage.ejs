@@ -1,0 +1,26 @@
+ 
+<link href="http://cdn.bootcss.com/extjs/4.2.1/resources/ext-theme-gray/ext-theme-gray-all.min.css" rel="stylesheet"/> 
+<script type="text/javascript" src="http://cdn.bootcss.com/extjs/4.2.1/ext-all.min.js"></script> 
+<input type="button" value="推送消息" onclick="broadcast();">
+<script type="text/javascript"> 
+    Ext.onReady(function () {
+        io.socket.on('message', function(data){
+            console.log(data.msg);
+        });
+        io.socket.get('/message', function gotResponse(body, response) {
+            console.log(response.statusCode, body);
+            console.log(body.msg);
+        })
+    });
+    var showTip = function(msg){
+        Ext.example.msg('消息提示', msg);
+    }
+    var broadcast = function(){
+        io.socket.get('/message', function gotResponse(body, response) {
+            console.log(body.msg);
+        })
+    }
+</script>
+<div class="default-page">
+ 
+</div>

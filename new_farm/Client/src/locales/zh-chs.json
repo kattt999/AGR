@@ -1,0 +1,227 @@
+{
+	"_element": "zh-CN",
+	"_name": "简体中文",
+	"page": {
+		"demo": {
+			"playground": {
+				"locales": {
+					"text": "D2Admin 是一个完全 开源免费 的企业中后台产品前端集成方案，使用最新的前端技术栈，已经做好大部分项目前期准备工作，并且带有大量示例代码，助力管理系统敏捷开发。"
+				}
+			}
+		}
+	},
+	"validate": {
+		"required": "必填项不能为空",
+		"format": "{attr}格式错误"
+	},
+	"updatePassword": {
+		"validate": {
+			"comfirmPassword": "确认密码与新密码输入不一致"
+		},
+		"title": "修改密码"
+	},
+	"index": {
+		"title": "以服务为基础，以质量为生存，以科技求发展。",
+		"theme": "主题",
+		"fullscreen": "全屏",
+		"Escfullscreen": "退出全屏",
+		"Switch": "切换环境",
+		"log": "没有日志或异常",
+		"size": {
+			"default": "默认",
+			"medium": "中",
+			"small": "小",
+			"mini": "最小"
+		},
+		"exit": "退出",
+		"updataPwd": "修改密码",
+		"refresh": "刷新",
+		"updataPwdS": "修改密码成功",
+		"userInfo": "你好 {name}",
+		"userCenter": "用户中心",
+		"use": "使用",
+		"preview": "预览",
+		"activated": "已激活",
+		"home": "首页",
+		"weblog": "前端日志"
+	},
+	"D2": {
+		"multiple": "已选择 {msg} 项",
+		"valueLabel": "未选择或未匹配"
+	},
+	"close": {
+		"all": "关闭全部",
+		"left": "关闭左侧",
+		"right": "关闭右侧",
+		"other": "关闭其它"
+	},
+	"query": "搜索",
+	"add": "新建",
+	"setup": "设置",
+	"refresh": "刷新",
+	"operate": "操作",
+	"reset": "重置",
+	"hide": "隐藏",
+	"save": "保存",
+	"cancle": "取消",
+	"unfold": "展开",
+	"queryPermission": "展开",
+	"required": "必填",
+	"start_time": "开始时间",
+	"end_time": "结束时间",
+	"status": "状态",
+	"delete": "确定删除 [ {msg} ] 吗？",
+	"created_at": "创建时间",
+	"updated_at": "更新时间",
+	"seclet": "请选择",
+	"ok": "确定",
+	"remark": "备注",
+	"remove": "删除",
+	"edit": "修改",
+	"all": "全部",
+	"operate_success": "操作成功", 
+	"management": {
+		"menu": {
+			"menu_name": "菜单名称",
+			"menu_name_en": "英文名称",
+			"parent_id": "上级菜单",
+			"menu_type": "菜单类型",
+			"order_num": "序号",
+			"url": "菜单链接",
+			"route_name": "路由名称",
+			"route_path": "路由地址",
+			"route_component": "路由组件",
+			"route_cache": "路由缓存",
+			"perms": "权限标识",
+			"icon": "图标",
+			"visible": "可见性",
+			"is_frame": "外链",
+			"remark": "备注",
+			"created_at": "创建时间",
+			"updated_at": "更新时间"
+		},
+		"dictdata": {
+			"dict_id": "标签值",
+			"dict_label": "字典名",
+			"dict_label_en": "英文字典",
+			"dict_type": "标签名",
+			"dict_number": "字典值",
+			"dict_sort": "序号",
+			"status": "状态",
+			"remark": "备注",
+			"created_at": "创建时间",
+			"updated_at": "更新时间",
+			"css_class": "样式属性",
+			"list_class": "回显样式",
+			"is_default": "系统默认"
+		},
+		"dict": {
+			"dict_name": "标签名",
+			"dict_name_en": "英文名",
+			"dict_type": "标签值",
+			"dict_value_type": "数据类型",
+			"status": "状态",
+			"remark": "备注",
+			"created_at": "创建时间",
+			"updated_at": "更新时间"
+		},
+		"user": {
+			"user_name": "用户名",
+			"nickname": "昵称",
+			"avatar": "头像",
+			"email": "邮箱",
+			"sex": "性别",
+			"phone": "手机",
+			"dept_id": "部门",
+			"status": "状态",
+			"remark": "备注",
+			"login_ip": "上次登录地址",
+			"login_date": "上次登录时间",
+			"password": "密码",
+			"user_post": "岗位",
+			"user_role": "角色",
+			"repassword": "确认密码",
+			"opassword": "原密码"
+		},
+		"role": {
+			"role_name": "角色名称",
+			"role_key": "权限字符",
+			"role_sort": "序号",
+			"role_menu": "菜单权限",
+			"data_scope": "数据权限",
+			"role_dept": "部门权限"
+		},
+		"dept": {
+			"dept_name": "部门名",
+			"email": "邮箱",
+			"phone": "联系电话",
+			"parent_id": "上级部门",
+			"order_num": "序号",
+			"leader": "负责人"
+		},
+		"post": {
+			"post_name": "岗位名",
+			"post_code": "岗位编码",
+			"post_sort": "序号"
+		},
+		"config": {
+			"config_name": "参数名称",
+			"config_key": "参数键名",
+			"config_value": "参数键值",
+			"config_type": "系统内置"
+		}
+	},
+	"farm": {
+		"device": {
+			"sn": "设备编号",
+			"name": "设备昵称",
+			"typeId": "设备类型",
+			"farmId": "农场名",
+			"location": "位置",
+			"image": "设备图片",
+			"installTime": "安装时间",
+			"state": "状态",
+			"standard": "规格",
+			"manufacturer": "生产厂家",
+			"userId": "拥有者",
+			"softwareVersion":"软件版本号",
+			"thresholdMin":"阈值的最小值",
+			"thresholdMax": "阈值的最大值",
+			"remark": "备注",
+			"operator": "操作人员"
+		},
+		"task": {
+			"product_batches_id": "产品批次",
+			"content": "产品内容",
+			"state": "状态",
+			"img1": "图片1",
+			"img2": "图片2",
+			"img3": "图片3",
+			"img4": "图片4",
+			"producter_id": "生产人",
+			"sys_user_id": "拥有者",
+			"farm_id": "农场名",
+			"create_time": "创建时间",
+			"finish_date": "完成时间",
+			"activity_date": "活动时间",
+			"area": "位置",
+			"desc_content": "详细内容"
+		},
+		"cropland": {
+			"sn": "编号",
+			"linkman": "负责人", 
+			"farmId": "农场名",
+			"location": "位置",
+			"area": "面积",
+			"mainCrop": "农作物",
+			"remark": "备注"
+		},
+		"products": {
+			"name": "农产品",
+			"plantnum": "种植数量", 
+			"price": "价格",
+			"type": "类型", 
+			"remark": "备注"
+		}
+	}
+}

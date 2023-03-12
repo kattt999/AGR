@@ -1,0 +1,208 @@
+{
+	"_element": "en",
+	"_name": "English",
+	"page": {
+		"demo": {
+			"playground": {
+				"locales": {
+					"text": "D2Admin is a fully open source and free enterprise back-end product front-end integration solution, using the latest front-end technology stack, has prepared most of the project preparations, and with a lot of sample code to help the management system agile development."
+				}
+			}
+		}
+	},
+	"index": {
+		"title": "Service-based, quality for survival, science and technology for development.",
+		"theme": "theme",
+		"fullscreen": "full screen",
+		"Escfullscreen": "Exit full screen",
+		"Switch": "Switch the environment",
+		"log": "No logs or exceptions",
+		"size": {
+			"default": "default",
+			"medium": "medium",
+			"small": "small",
+			"mini": "mini"
+		},
+		"exit": "Exit",
+		"updataPwd": "Updata password",
+		"refresh": "Refresh",
+		"updataPwdS": "Password changed successfully",
+		"userInfo": "Hello {name}",
+		"userCenter": "User Center",
+		"use": "use",
+		"preview": "preview",
+		"activated": "activated"
+	},
+	"D2": {
+		"multiple": "The {msg} item is selected",
+		"valueLabel": "Not selected or not matched"
+	},
+	"validate": {
+		"required": "Required field cannot be empty",
+		"format": "{attr} format error"
+	},
+	"updatePassword": {
+		"validate": {
+			"comfirmPassword": "Confirm password is not consistent with new password input"
+		}
+	},
+	"close": {
+		"all": "Close All",
+		"left": "Close Left",
+		"right": "Close Right",
+		"other": "Close other"
+	},
+	"query": "Query",
+	"add": "Add",
+	"setup": "Setup",
+	"refresh": "Refresh",
+	"operate": "Operate",
+	"reset": "Reset",
+	"hide": "Hide",
+	"save": "Save",
+	"cancle": "Cancle",
+	"unfold": "Unfold",
+	"queryPermission": "Info",
+	"required": "Required",
+	"start_time": "Start time",
+	"end_time": "End time",
+	"delete": "Are you sure to delete [{msg}]?",
+	"status": "Status",
+	"created_at": "Create Time",
+	"updated_at": "Update Time",
+	"seclet": "seclet",
+	"ok": "Confirm",
+	"remark": "Remark",
+	"remove": "Remove",
+	"edit": "Edit",
+	"all":"all",
+	"operate_success":"operate successfully", 
+	"management": {
+		"menu": {
+			"menu_name": "Menu Name",
+			"menu_name_en": "EN Name ",
+			"parent_id": "Parent ID",
+			"menu_type": "Type",
+			"order_num": "Order",
+			"url": "url",
+			"route_name": "Route Name",
+			"route_path": "Path",
+			"route_component": "Component",
+			"route_cache": "Cache",
+			"perms": "Perms",
+			"icon": "Icon",
+			"visible": "Visible",
+			"is_frame": "Frame",
+			"remark": "Remark",
+			"created_at": "Create Time",
+			"updated_at": "Updated Time"
+		},
+		"dictdata": {
+			"dict_id": "Dict ID",
+			"dict_label": "Dict Label",
+			"dict_label_en": "EN Dict Label",
+			"dict_type": "Label Value",
+			"dict_number": "Dict Value",
+			"dict_sort": "Sort",
+			"status": "Status",
+			"remark": "Remark",
+			"created_at": "Create Time",
+			"updated_at": "Update Time",
+			"css_class": "Css Class",
+			"list_class": "List Class",
+			"is_default": "Default"
+		},
+		"dict": {
+			"dict_name": "Name",
+			"dict_name_en": "EN Name",
+			"dict_type": "Label Value",
+			"dict_value_type": "Type",
+			"status": "Status",
+			"remark": "Remark",
+			"created_at": "Create Time",
+			"updated_at": "Update Time"
+		},
+		"user": {
+			"user_name": "User Name",
+			"nickname": "Nick Name",
+			"avatar": "Avatar",
+			"email": "Email",
+			"sex": "sex",
+			"dept_id": "Dept",
+			"phone": "Phone",
+			"status": "Status",
+			"remark": "Rmark",
+			"login_ip": "Login IP",
+			"login_date": "Login Time",
+			"password": "Password",
+			"user_post": "Post",
+			"user_role": "Role",
+			"repassword": "Confirm Password",
+			"opassword": "Original Password"
+		},
+		"role": {
+			"role_name": "Role Name",
+			"role_key": "Key",
+			"role_sort": "Sort",
+			"role_menu": "Menu",
+			"data_scope": "Data Scope",
+			"role_dept": "Dept role"
+		},
+		"dept": {
+			"dept_name": "Dept Name",
+			"email": "Email",
+			"phone": "Phone",
+			"parent_id": "Parent Dept",
+			"order_num": "Sort",
+			"leader": "Leader"
+		},
+		"post": {
+			"post_name": "Post Name",
+			"post_code": "Post Code",
+			"post_sort": "Sort"
+		},
+		"config": {
+			"config_name": "Name",
+			"config_key": "Key",
+			"config_value": "Value",
+			"config_type": "Type"
+		}
+	},
+	"farm": {
+		"device": {
+			"sn": "SN ID",
+			"name": "Name",
+			"typeId": "Type",
+			"farmId": "farm Name",
+			"location": "location",
+			"image": "image",
+			"installTime": "Install Time",
+			"state": "state",
+			"standard": "standard",
+			"manufacturer": "manufacturer",
+			"userId": "USER",
+			"softwareVersion":"software Version",
+			"thresholdMin":"threshold Min",
+			"thresholdMax": "threshold Max",
+			"remark": "remark",
+			"operator": "operator"
+		},
+		"task": {
+			"product_batches_id": "product batches",
+			"content": "content",
+			"state": "state",
+			"img1": "img1",
+			"img2": "img2",
+			"img3": "img3",
+			"img4": "img4",
+			"producter_id": "producter",
+			"sys_user_id": "user",
+			"farm_id": "farm",
+			"create_time": "create time",
+			"finish_date": "finish time",
+			"activity_date": "activity time",
+			"area": "area",
+			"desc_content": "desc content"
+		}
+	}
+}

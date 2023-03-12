@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Jul 10 16:22:14 CST 2020
+javafx.base-11.0.0-20180629.175051-1-win.jar>sonatype-oss-snapshots=
+javafx.base-11.0.0-20180702.224858-3.pom>sonatype-nexus-snapshots=
+javafx.base-11.0.0-20180702.224858-3.jar>sonatype-oss-snapshots=
+javafx.base-11.0.0-20180702.223831-2-linux.jar>sonatype-oss-snapshots=
+javafx.base-11.0.0-20180702.224858-3-mac.jar>sonatype-oss-snapshots=
